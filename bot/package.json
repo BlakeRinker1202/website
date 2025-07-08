@@ -1,0 +1,7 @@
+{
+  "name": "Freshiez Verification Bot",
+  "version": "1.0.0",
+  "dependencies": {
+    "discord.js": "^14.11.0"
+  }
+}
